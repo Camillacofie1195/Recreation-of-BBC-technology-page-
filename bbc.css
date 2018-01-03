@@ -1,0 +1,709 @@
+                    body {
+                        margin:0;
+                        padding:0;
+                        font-family: sans-serif;
+                    }
+
+
+                        /*top white bar which contains the BBC logo, all the white menu, sign in and search bar */
+
+                        #headerbar{
+                        
+                        width:1000px; 
+                        margin:0 auto;
+                        background-color:white;
+                        height:40px;
+                    }
+        
+
+                    /* iconic BBC logo in the top left hand corner of the page */
+
+                        #bbc-logo {
+                        width:100px;
+                        float:left;
+                        margin-top:5px;
+                        margin-right:5px;
+                        margin-left:-40px;
+                       
+                        
+                    }
+
+            /* the small grey lines in the menu bar */
+
+                        .greydivider {
+                            
+                            float:left;
+                            border-left:1.5px #cccccc solid;
+                            height: 100%; 
+                            
+                            
+                    }
+
+            /* styling the options top white menu bar */
+
+                        .top-white-menu {
+                        
+                            position:relative;
+                            top:14px;
+                            padding-right:15px;
+                            padding-left:15px;
+                            font-size:12px;
+                            font-weight:bold;
+                          
+                    }
+                        
+
+                /* small circular sign in logo in the top white menu div */
+                    
+                    
+                    #sign-in-logo{
+                        
+                        height:30px;
+                        width:40px;
+                        margin-top:6px;
+                        float:left;
+                    }
+                    
+                /* sign in option in the top white menu bar div */
+
+                    #sign-in-link {
+                        
+                    
+                        font-size:12px;
+                        position:relative;
+                        top:14px;
+                        font-weight:bold;
+                        padding-right:50px;
+                        
+                        
+                    }
+                    
+                    /*the small grey wiggly line to the left of the bell icon in the top white menu bar */
+
+                    #wiggle {
+                        height:40px;
+                        position:relative;
+                        float:left;
+                        
+                    /* small bell icon in the top white menu bar */
+                    }
+                    
+                    #bell {
+                        
+                        height:25px;
+                        width:25px;
+                        float:left;
+                        padding-top:7px;
+                        padding-left:8px;
+                        padding-right:8px;
+                    }
+                    
+                
+                 /* div containing the downward arrow in the top white menu bar */
+                    
+                    #more {
+                        
+                        padding-right:80px;
+                        float:left;
+                        padding-top:3px;
+                    
+                    }
+
+                    /*small black downward arrow next to the 'more' option in the top white menu div */
+                    
+                    #downward-arrow {
+                        
+                    
+                        height:13px;
+                        width:18px;
+                        padding-right:20px;
+                        padding-top:14px;
+                        
+                    }
+
+                    /*search bar on the right hand side of the white div */
+                    
+                    #search {
+                        background-color:#e4e4e4;
+                        border:none;
+                        height:20px;
+                        width:150px;
+                        float:left;
+                        margin-top:10px;
+                        margin-left:5px;
+                        padding-left:5px;
+                        font-weight:bold;
+                        font-size:12px;
+                       
+                        
+                    /* grey magnifying glass in the search bar in the top white menu div */
+                        
+                    }
+                    #magnifying-glass {
+                        
+                        height:20px;
+                        width:23px;
+                        margin-top:10px;
+                        border-bottom:2px solid #e4e4e4;
+                      
+                    }
+                    
+                    /*first red bar */
+                  
+                        #redbar {
+                        
+                        width:100%;
+                        height:60px;
+                        background-color:#bb1919;
+                        
+                        
+                    }
+                    
+                    /* big white news sign in the top red div */
+
+                    #news {
+                        
+                        color:white;
+                        float:left;
+                        position:relative;
+                        top:8px;
+                        padding-left:100px;
+                        font-size:250%;
+                        text-transform: uppercase;
+                        
+                        
+                        
+                /* div containing the link to find local news on the right side of the first red bar */
+                    }
+                    #local-news {
+                        
+                        height:25px;
+                        width:160px;
+                        float:right;
+                        color:white;
+                        border:0.5px solid #e9967a;
+                        padding-top:8px;
+                        padding-left:5px;
+                        margin: 12px 220px 5px;
+                        font-size:115%;
+                        
+                    }
+
+                  /* small red locator icon in the local news div */
+                    
+                    #localnewsicon {
+                        
+                        height:18px;
+                        width:18px;
+                        padding-left:6px;
+                    }
+                    
+                    /*darker red navigation bar containing the second menu*/
+                    #rednavbar {
+                        
+                        height:30px;
+                        width:100%;
+                        background-color:#a91717;
+                        color:white;
+                        font-size:90%;
+                        padding:4px 5px 3px 90px;
+                        float:left;
+                      
+                        
+                    
+                    }
+
+                        /*contains the second set of menu options in the red meny bar */
+                     .redmenu {
+                        
+                        
+                        font-size:14px;
+                        position:relative;
+                        top:2px;
+                        padding-right:15px;
+                        padding-left:15px;
+                          
+                    }
+
+                    /*tiny red line which separates all options in the red menu bar */
+
+                    .divider {
+                        
+                        height:14px;
+                        border-right:0.5px solid #e9967a ;
+                        position:relative;
+                        top:6px;
+                        float:inherit;
+                        
+                    }
+                    
+                    /*the tiny white triangle in the red menu bar */
+                    
+                    #redmore {
+                        
+                        height:13px;
+                        width:16px;
+                        padding-top:6px;
+                    }
+
+                    /*styling for the technology title on the page */
+                    
+                    #technology {
+                        
+                    padding-left:100px;
+                    color:#393a3b;
+                    position:relative;
+                    top:15px;
+                    font-size:125%;
+                    
+                    
+                    }
+
+                    /*red underline underneath the technology title */
+                    
+                   #underline {
+                    
+                    width:100px;
+                    border-bottom:3px solid #a91717;
+                    position:relative;
+                    left:100px;
+                    padding-top:15px; 
+                        
+                    
+                    }
+                    
+                    /*the div containing the top article of the page */
+                    
+                    #headline-div {
+                        
+                        width:650px;
+                        height:400px;
+                        position:relative;
+                        left:100px;
+                        border-right: 1px solid #e4e4e4;
+                        padding-right:10px;
+                       
+                        
+}
+                        
+                        /* contains the headline title */
+                    
+                    
+                    #headline {
+                    
+                        
+                        float:left;
+                        position:relative;
+                        top:-8px;
+                        
+        /*the paragraph in the first big headline div */
+                        
+                    }
+                    
+                    #headline-paragraph {
+                        color:dimgrey;
+                        width:250px;
+                        font-size:90%;
+                        float:left;
+                    }
+    
+                    /*the first image  in the headline div*/
+
+                    #bot {
+                        
+                        float:right;
+                        height:260px;
+                        width:370px;
+                       
+                    }
+
+                    /*tiny clock image */
+                    
+                    .clock {
+                        
+                        height:20px;
+                        width:20px;
+                        position:relative;
+                        top:3px;
+                    }
+                    
+                    /*tiny red line which separates the 'hours ago' with 'technology */
+                    .bbcnewssection {
+                        
+                        color:#a91717;
+                        border-left: 1px solid #e4e4e4;
+                        padding-left:3px;
+                        font-size:90%;
+                    
+                    }
+
+                .hoursago {
+                        color:dimgrey;
+                        font-size:90%;
+                       
+                    
+    
+}
+
+
+#headlinelink {
+    
+    color:black;
+}
+
+                    /*the horozontal rule which sits just below the first big headline div */
+                .horozontalrule {
+                    width:650px;
+                    float:left;
+                    position:relative;
+                 margin-top:10px;
+                    height:1px;
+                   background-color:#e4e4e4;
+                    border:0px;
+                    
+                
+                }
+
+            #secondheadline  {
+
+            height:450px;
+            width:650px;
+            border-right: 1px solid #e4e4e4;
+            float:left;
+            padding-left:100px;
+            margin-top:-25px;
+            padding-right:10px;
+}
+            .secondaryparagraph {
+    
+                float:left;
+                width:245px;
+                height:450px;
+                border-right: 1px solid #e4e4e4;
+               
+                
+    
+        }
+
+
+        .headlineimages     {
+
+            height:140px;
+            width:230px;
+            
+
+            }
+
+
+            .secondaryheadline {
+    
+                color:dimgrey;
+                font-size:90%;
+                margin-right:8px;
+    
+                }
+
+
+
+    #thirdparagraph {
+        
+        
+                width:245px;
+                height:450px;
+                border-right: 1px solid #e4e4e4;
+                float:left;
+                padding-left:10px;
+               
+                
+    
+        }
+
+            .secondarylinks {
+    
+            font-size:90%
+            
+                }
+
+                /*the div containing all of the videos on the right hand side of the page */
+
+
+            .smallerarticle {
+    
+                height:160px;
+                width:130px;
+                float:right;
+                position:relative;
+                top:-20px;
+                margin-top:10px;
+                
+                
+                    }
+
+
+                .smallerarticle1 {
+    
+                height:150px;
+                width:130px;
+                float:right;
+                position:relative;
+                top:-20px;
+                margin-top:-10px;
+    
+                    }
+
+#bottomvideolinks {
+    
+
+height: 300px;
+width:650px;
+left:90px;
+bottom:-830px;
+float:left;
+position:absolute;
+
+}
+
+.newtech {
+    
+    
+    height:150px;
+    width:150px;
+    float:left;
+    margin-right:8px;
+   
+    
+    
+}
+
+
+.space {
+    
+    margin-bottom:10px;
+    
+}
+
+
+            .minihorozontal{
+                     
+                background-color: #e4e4e4;
+                width:120px;
+                height:1px;
+                border:0px;
+                
+                            
+}
+
+.headlinelinksleft {
+
+height:250px;
+width:325px;
+position:absolute;
+float:left;
+margin-left:90px;
+margin-top:450px;
+padding-top:5px;
+
+
+}
+
+
+.headlinelinksright {
+
+height:250px;
+width:325px;
+position:absolute;
+float:right;
+margin-left:450px;
+margin-top:450px;
+padding-top:5px;
+
+
+
+}
+
+
+.left {
+
+float:left;
+padding-top:8px; 
+padding-bottom:8px;
+
+    
+}
+
+.right {
+    
+    float:left;
+    padding-top:8px;
+    padding-bottom:8px;
+}
+
+h4 {
+    
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.headlinehr
+{
+                    width:300px;
+                    float:left;
+                    position:relative;
+                 margin-top:10px;
+                    height:1px;
+                   background-color:#e4e4e4;
+                    border:0px;
+
+}
+
+                #watch-listen {
+                    
+                    float:right;
+                    height:700px;
+                    width:350px;
+                    position:relative;
+                    top:-400px;
+                    margin-right:150px;
+                    
+                    
+                }
+                    
+            
+            .watchlistenshare {
+                
+                font-size:150%;
+                color:#393a3b;
+                
+                
+                
+    
+}
+
+
+
+
+.videoarticles {
+    
+    float:right;
+    font-size:85%;
+    height:80px;
+    width:350px;
+    padding-bottom:20px;
+
+
+} 
+
+.videoimage {
+    height:70px;
+    width:120px;
+    float:left;
+    padding-right:5px;
+    padding-top:10px;
+
+}
+.videohoursago {
+    position:relative;
+    top:-10px;
+    
+}
+            
+
+#share {
+    
+    float:right;
+    width:350px;
+    height:400px;
+    
+}
+    
+.contact {
+    
+    font-weight:300;
+    font-size:95%;
+    padding-left:5px;
+  
+}
+
+#redarrow {
+    
+    height:20px;
+    width:25px;
+
+    
+}
+
+.contacticons{
+    height:20px;
+    width:23px;
+    margin-bottom:-5px;
+    
+    
+}
+
+
+#socialmediafb{
+    
+    height:40px;
+    width:150px;
+    background-color:#f7f7f7;
+    float:left;
+    font-size:80%;
+    text-align: center;
+    border-bottom: 4px solid #3c5a98;
+    margin-left:3px;
+    line-height: 40px;
+}
+
+#socialmediatwitter{
+    
+    height:40px;
+    width:150px;
+    background-color:#f7f7f7;
+    float:left;
+    font-size:80%;
+    text-align: center;
+    border-bottom: 4px solid #47c7fa;
+    margin-left:3px;
+    line-height: 40px;
+}
+
+    #RSSnewsfeeds {
+    
+    height:40px;
+    width:303px;
+    background-color:#f7f7f7;
+    float:left;
+    font-size:80%;
+    text-align: center;
+    border-bottom: 4px solid black;
+    margin-left:3px;
+    margin-top:3px;
+    line-height: 40px;
+}
+
+
+#elsewhere {
+    
+    width:303px;
+    height:150px;
+    background-color:#e4e4e4;
+    position:relative;
+    top:50px;
+    margin-bottom:50px;
+    font-size:95%;
+    float:left;
+    padding-left:10px;
+
+    
+}
+  
+#theatre {
+    
+    height:70px;
+    width:100px;
+    float:left;
+    padding-right:10px;
+    padding-bottom:80px;
+    position:relative;
+    
+}        
